@@ -12,7 +12,7 @@ let mondayWork = function(action='go to the office'){
 function wrapAdjective(highLight = "*"){
 	
 	return function(special="a dedicated programmer"){
-		return`You are ${highLight} ${special} ${highLight}!`
+		return`You are ${highLight}${special}${highLight}!`
 
 		
 	}
